@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "./dist", // 컴파일 결과 js파일이 생성될 위치
+    "strict": true, // true일 시 타입 검사를 엄격하게 하도록, 매개 변수의 타입을 반드시 지정해야 함.
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  },
+  "ts-node": {
+    "esm" : true
+  },
+  "include": ["src"]
+}
