@@ -2,13 +2,13 @@
   "name": "section7",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@types/node": "^24.7.2"
   }
